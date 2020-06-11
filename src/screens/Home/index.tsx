@@ -2,6 +2,7 @@ import React from 'react';
 import { MaterialCommunityIcons, AntDesign } from '@expo/vector-icons';
 
 import Suggestions from '../../components/Suggestions';
+import Activities from '../../components/Activities';
 
 import * as S from './styles';
 
@@ -22,6 +23,7 @@ const Home: React.FC = () => {
         </S.Header>
 
         <Suggestions />
+        <Activities />
       </S.ScrollView>
     </S.Container>
   );
