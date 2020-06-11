@@ -4,14 +4,16 @@ export const Container = styled.SafeAreaView`
   flex: 1;
   background: #000;
 `
+export const ScrollView = styled.ScrollView``;
+
+// HEADER
 export const Header = styled.View`
   height: 50px;
   padding: 0 15px;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-`
-
+`;
 export const Balance = styled.Text`
   color: #f5f5f5;
   text-align: center;
@@ -26,3 +28,4 @@ export const BalanceTitle = styled.Text`
 export const BalanceContainer = styled.SafeAreaView`
   background: #000;
 `
+
