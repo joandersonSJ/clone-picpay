@@ -10,7 +10,6 @@ import img6 from '../../images/06.png';
 import img7 from '../../images/07.png';
 
 
-
 const items = [
   {
     key: String(Math.random()),

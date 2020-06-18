@@ -24,10 +24,10 @@ const Activities: React.FC = () => {
 
         <S.CardFooter>
           <S.Details>
-            <S.Value>R$ 18,00</S.Value>
+            <S.Value>R$ 480,00</S.Value>
             <S.Divider />
               <Feather name="lock" color="#f5f5f5" size={14}/>
-            <S.Date> há 2 anos </S.Date>
+            <S.Date>há 2 anos</S.Date>
           </S.Details>
 
           <S.Actions>
